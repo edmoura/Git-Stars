@@ -11,11 +11,11 @@ import Viperit
 
 // MARK: - IndexPresenter Class
 final class IndexPresenter: Presenter {
-    private let per_page = 10
-    private var isFetching: Bool = false
-    private var isLoading: Bool = true
-    private var currentPage = 1
-    private var list = [Items]()
+    let per_page = 10
+    var isFetching: Bool = false
+    var isLoading: Bool = true
+    var currentPage = 1
+    var list = [Items]()
     
     override func viewHasLoaded() {
         loadContent()
@@ -33,9 +33,9 @@ extension IndexPresenter: IndexPresenterApi {
     
     func refreshData() {
         if list.count >= per_page {
-            currentPage = 1
-            isFetching = true
-            isLoading = false
+            self.currentPage = 1
+            self.isFetching = true
+            self.isLoading = false
             getLists(isRefresh: true)
         }
     }
@@ -91,9 +91,9 @@ extension IndexPresenter: IndexPresenterApi {
     func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
         if indexPath.row > 1 {
             if indexPath.row == (list.count - 1) && !isFetching && !isLoading {
-                isFetching = true
+                self.isFetching = true
                 currentPage += 1
-                view.getTableView().reloadSections(IndexSet(integer: 1), with: .none)
+                view.getTableView().reloadSections( IndexSet(integer: 1), with: .left)
                 getLists()
             }
         }
@@ -118,10 +118,9 @@ extension IndexPresenter: IndexPresenterApi {
             } else {
                 return list.count
             }
-        } else if section == 1 && isFetching {
+        } else {
             return 1
         }
-        return 0
     }
 }
 

@@ -36,7 +36,9 @@ extension Service: TargetType {
     }
     
     var sampleData: Data {
-        return Data()
+        switch self {
+        case .getList(_): return stubbedResponse("repositories")
+        }
     }
     
     var task: Task {
@@ -49,4 +51,11 @@ extension Service: TargetType {
     var headers: [String : String]? {
         return ["Content-Type": "application/json; charset=utf-8"]
     }
+}
+
+func stubbedResponse(_ filename: String) -> Data! {
+    @objc class TestClass: NSObject {}
+    let bundle = Bundle(for: TestClass.self)
+    let path = bundle.path(forResource: filename, ofType: "json")
+    return (try? Data(contentsOf: URL(fileURLWithPath: path!)))
 }

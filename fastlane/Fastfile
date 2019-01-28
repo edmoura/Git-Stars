@@ -27,6 +27,7 @@ platform :ios do
 
     slather(
       proj: "GitStars.xcodeproj",
+      workspace: "GitStars.xcworkspace",
       scheme: "GitStars"
     )
   end

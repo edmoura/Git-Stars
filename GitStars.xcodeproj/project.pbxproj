@@ -37,7 +37,6 @@
 		889D60E721FBD1E600B1ADD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889D60E621FBD1E600B1ADD2 /* AppDelegate.swift */; };
 		889D60EE21FBD1E700B1ADD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 889D60ED21FBD1E700B1ADD2 /* Assets.xcassets */; };
 		889D60F121FBD1E700B1ADD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 889D60EF21FBD1E700B1ADD2 /* LaunchScreen.storyboard */; };
-		889D60FC21FBD1E700B1ADD2 /* GitStarsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889D60FB21FBD1E700B1ADD2 /* GitStarsTests.swift */; };
 		889D610721FBD1E800B1ADD2 /* GitStarsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889D610621FBD1E800B1ADD2 /* GitStarsUITests.swift */; };
 		88D3F67721FE3E7800E2814D /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D3F67621FE3E7800E2814D /* Currency.swift */; };
 		88D3F67921FE41F900E2814D /* Formatter+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D3F67821FE41F900E2814D /* Formatter+Extensions.swift */; };
@@ -50,6 +49,12 @@
 		88D3F69921FE7AFE00E2814D /* BrowserRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D3F69221FE7AFE00E2814D /* BrowserRouter.swift */; };
 		88D3F69A21FE7AFE00E2814D /* BrowserInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D3F69321FE7AFE00E2814D /* BrowserInteractor.swift */; };
 		88D3F69B21FE7AFE00E2814D /* BrowserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D3F69421FE7AFE00E2814D /* BrowserView.swift */; };
+		88D3F6A121FFAE5000E2814D /* IndexMockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D3F6A021FFAE5000E2814D /* IndexMockView.swift */; };
+		88D3F6A321FFAE6700E2814D /* IndexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D3F6A221FFAE6700E2814D /* IndexTests.swift */; };
+		88D3F6A621FFB77100E2814D /* repositories.json in Resources */ = {isa = PBXBuildFile; fileRef = 88D3F6A521FFB77100E2814D /* repositories.json */; };
+		88D3F6A821FFBA1F00E2814D /* IndexInteractorMockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D3F6A721FFBA1F00E2814D /* IndexInteractorMockView.swift */; };
+		88D3F6AA21FFC5F100E2814D /* BrowserMockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D3F6A921FFC5F100E2814D /* BrowserMockView.swift */; };
+		88D3F6AC21FFC61500E2814D /* BrowserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D3F6AB21FFC61500E2814D /* BrowserTests.swift */; };
 		9219A6EEFE88C2E74B820EEA /* Pods_GitStarsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B0B82B4D3F517C2B84F642D /* Pods_GitStarsTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -107,7 +112,6 @@
 		889D60F021FBD1E700B1ADD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		889D60F221FBD1E700B1ADD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		889D60F721FBD1E700B1ADD2 /* GitStarsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitStarsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		889D60FB21FBD1E700B1ADD2 /* GitStarsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitStarsTests.swift; sourceTree = "<group>"; };
 		889D60FD21FBD1E700B1ADD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		889D610221FBD1E800B1ADD2 /* GitStarsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitStarsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		889D610621FBD1E800B1ADD2 /* GitStarsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitStarsUITests.swift; sourceTree = "<group>"; };
@@ -123,6 +127,13 @@
 		88D3F69221FE7AFE00E2814D /* BrowserRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrowserRouter.swift; sourceTree = "<group>"; };
 		88D3F69321FE7AFE00E2814D /* BrowserInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrowserInteractor.swift; sourceTree = "<group>"; };
 		88D3F69421FE7AFE00E2814D /* BrowserView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrowserView.swift; sourceTree = "<group>"; };
+		88D3F69F21FFAE5000E2814D /* GitStarsTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GitStarsTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		88D3F6A021FFAE5000E2814D /* IndexMockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexMockView.swift; sourceTree = "<group>"; };
+		88D3F6A221FFAE6700E2814D /* IndexTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexTests.swift; sourceTree = "<group>"; };
+		88D3F6A521FFB77100E2814D /* repositories.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = repositories.json; sourceTree = "<group>"; };
+		88D3F6A721FFBA1F00E2814D /* IndexInteractorMockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexInteractorMockView.swift; sourceTree = "<group>"; };
+		88D3F6A921FFC5F100E2814D /* BrowserMockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserMockView.swift; sourceTree = "<group>"; };
+		88D3F6AB21FFC61500E2814D /* BrowserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserTests.swift; sourceTree = "<group>"; };
 		95EF88852138E42BF572FE10 /* Pods-GitStarsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitStarsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GitStarsUITests/Pods-GitStarsUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D0FFEDB8DBF0DD49FAF64144 /* Pods_GitStarsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitStarsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE26BC81AED6673CE5A61ABD /* Pods_GitStars.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitStars.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -194,6 +205,7 @@
 		88316CD621FBD5870039E867 /* Api */ = {
 			isa = PBXGroup;
 			children = (
+				88D3F6A421FFB5D300E2814D /* StubbedResponses */,
 				88316CFA21FBE2E90039E867 /* Model */,
 				88316CFB21FC8B880039E867 /* Service.swift */,
 			);
@@ -297,7 +309,7 @@
 		889D60FA21FBD1E700B1ADD2 /* GitStarsTests */ = {
 			isa = PBXGroup;
 			children = (
-				889D60FB21FBD1E700B1ADD2 /* GitStarsTests.swift */,
+				88D3F69C21FFAE0400E2814D /* Module */,
 				889D60FD21FBD1E700B1ADD2 /* Info.plist */,
 			);
 			path = GitStarsTests;
@@ -332,6 +344,43 @@
 				88D3F69421FE7AFE00E2814D /* BrowserView.swift */,
 			);
 			path = Browser;
+			sourceTree = "<group>";
+		};
+		88D3F69C21FFAE0400E2814D /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				88D3F69E21FFAE1600E2814D /* Browser */,
+				88D3F69D21FFAE0B00E2814D /* Index */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		88D3F69D21FFAE0B00E2814D /* Index */ = {
+			isa = PBXGroup;
+			children = (
+				88D3F6A021FFAE5000E2814D /* IndexMockView.swift */,
+				88D3F69F21FFAE5000E2814D /* GitStarsTests-Bridging-Header.h */,
+				88D3F6A221FFAE6700E2814D /* IndexTests.swift */,
+				88D3F6A721FFBA1F00E2814D /* IndexInteractorMockView.swift */,
+			);
+			path = Index;
+			sourceTree = "<group>";
+		};
+		88D3F69E21FFAE1600E2814D /* Browser */ = {
+			isa = PBXGroup;
+			children = (
+				88D3F6A921FFC5F100E2814D /* BrowserMockView.swift */,
+				88D3F6AB21FFC61500E2814D /* BrowserTests.swift */,
+			);
+			path = Browser;
+			sourceTree = "<group>";
+		};
+		88D3F6A421FFB5D300E2814D /* StubbedResponses */ = {
+			isa = PBXGroup;
+			children = (
+				88D3F6A521FFB77100E2814D /* repositories.json */,
+			);
+			path = StubbedResponses;
 			sourceTree = "<group>";
 		};
 		C6F073C669F313D362D379CC /* Pods */ = {
@@ -424,6 +473,7 @@
 					};
 					889D60F621FBD1E700B1ADD2 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 						TestTargetID = 889D60E221FBD1E600B1ADD2;
 					};
 					889D610121FBD1E800B1ADD2 = {
@@ -458,6 +508,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				88D3F67E21FE664200E2814D /* loader1.json in Resources */,
+				88D3F6A621FFB77100E2814D /* repositories.json in Resources */,
 				88D3F69821FE7AFE00E2814D /* Browser.storyboard in Resources */,
 				88316D0D21FCF41B0039E867 /* DataTableViewCell.xib in Resources */,
 				88316CE121FBD5D40039E867 /* Index.storyboard in Resources */,
@@ -700,7 +751,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				889D60FC21FBD1E700B1ADD2 /* GitStarsTests.swift in Sources */,
+				88D3F6A321FFAE6700E2814D /* IndexTests.swift in Sources */,
+				88D3F6AA21FFC5F100E2814D /* BrowserMockView.swift in Sources */,
+				88D3F6AC21FFC61500E2814D /* BrowserTests.swift in Sources */,
+				88D3F6A121FFAE5000E2814D /* IndexMockView.swift in Sources */,
+				88D3F6A821FFBA1F00E2814D /* IndexInteractorMockView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -901,6 +956,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5YXGL6FVW3;
 				INFOPLIST_FILE = GitStarsTests/Info.plist;
@@ -911,6 +967,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.br.GitStarsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GitStarsTests/Module/Index/GitStarsTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GitStars.app/GitStars";
@@ -923,6 +981,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5YXGL6FVW3;
 				INFOPLIST_FILE = GitStarsTests/Info.plist;
@@ -933,6 +992,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.br.GitStarsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GitStarsTests/Module/Index/GitStarsTests-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GitStars.app/GitStars";

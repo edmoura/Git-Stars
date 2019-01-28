@@ -53,7 +53,7 @@ extension IndexView: IndexViewApi {
         self.tableView.tableFooterView = UIView(frame: .zero)
         self.tableView.isAccessibilityElement = true
         self.tableView.translatesAutoresizingMaskIntoConstraints = false
-        self.tableView.accessibilityIdentifier = "table--articleTableView"
+        self.tableView.accessibilityIdentifier = "table--listTableView"
         if self.navigationController?.navigationBar.prefersLargeTitles == true {
             self.tableView.refreshControl = refreshControl
             self.extendedLayoutIncludesOpaqueBars = true
