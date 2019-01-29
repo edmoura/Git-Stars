@@ -13,7 +13,6 @@ This project uses [Bundler](http://bundler.io) and [CocoaPods](https://cocoapods
 
 ### About the project ###
 
-* API: [News API](https://newsapi.org/).
 * Snap Kit: [GitHub](https://github.com/SnapKit/SnapKit).
 * SDWebImage: [GitHub](https://github.com/SDWebImage/SDWebImage).
 * Viperit: [GitHub](https://github.com/ferranabello/Viperit).
