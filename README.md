@@ -9,7 +9,7 @@ This project uses [Bundler](http://bundler.io) and [CocoaPods](https://cocoapods
 
 * bundle
 * bundle exec pod install
-# bundle exec fastlane ios test
+* bundle exec fastlane ios test
 
 ### About the project ###
 
