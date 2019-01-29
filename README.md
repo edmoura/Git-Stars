@@ -21,4 +21,4 @@ This project uses [Bundler](http://bundler.io) and [CocoaPods](https://cocoapods
 * Quick: [GitHub](https://github.com/Quick/Quick).
 * Nimble: [GitHub](https://github.com/Quick/Nimble).
 
-This project is about consuming a git API with sort more stars with Viper architecture, UI and Unit tests.
+This project is about consuming a git API with sort=stars with Viper architecture, UI and Unit tests.
